@@ -1,44 +1,123 @@
 /* Inserta tu codigo aqui */
 /*GENERAL*/
-*{
-  font-family: FontAwesome;
+footer, .margenchico{
+  margin-top: 3%;
 }
 img{
   width: 100%;
 }
+.cursiva{
+  font-family: 'Playball', cursive;
+  color: #e8981f;
+  font-size: 300%;
+}
 .cajanegra{
   background-color: #1d2020;
-  display: inline-block;
-  width: 95.5%;
   margin-left: 2.3%;
+  width: 95.6%;
 }
 /*HEADER + NAV*/
+.navbar{
+  height: 100px;
+    margin-bottom: -1%;
+}
+.logo{
+  width: 40%;
+  height: 50px;
+}
 ul li{
-  display: inline-block;
+  margin-top: 4.5%;
 }
 /*BANNER*/
+.sectioncolor{
+  background-color: #676766;
+}
 #headerflores{
   background-image: url(../image/header-image.jpg);
   background-size: cover;
   height: 500px;
 }
+.titulo{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+/*SECTION*/
+.cajadebajo{
+  width: 92.3%;
+  margin-left: 4%;
+}
+.video{
+  width: 100%;
+   height:450px;
+  border: none;
+}
+.margenmin{
+  margin-top: -0.7%;
+}
 /*ASIDE*/
+.contenidoaside{
+  width: 104%;
+}
 .cajaboton{
   width: 100%;
   height: 80px;
 }
 button{
-  background-color: #a46739;
+  margin-top: 4%;
+  border: none;
+  background-color: #676766;
   width: 80%;
-    margin-left: 10%;
-    height: 40px;
+  margin-left: 10%;
+  height: 40px;
+}
+.icono{
+  width: 7%;
+  margin: 2%;
+}
+/*FOOTER*/
+#footcolor{
+  background-color: #1d2020;
+  height: 80px;
 }
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+  .toggle-nav {
+      display:none;
+  }
 }
 
 @media screen and (max-width: 600px) {
 
+.titulo{
+  width: 90%;
+  height: 400px;
+  margin-top: 10%;
+  margin-left: 5%;
+  padding: 6%;
+  font-size: 100%;
+}
+
+#headerflores{
+  margin-top:4%;
+}
+
+.responsivemargen{
+  margin-top: -4%;
+}
+.responsivemargen2{
+  margin-top: -2.1%;
+}
+.cajanegra{
+  margin-left: 3.4%;
+    width: 93%;
+}
+
+/*MENU*/
+.navbar-toggle{
+height: 40px;
+width: 36px;
+margin-top: -2%;
+}
 }
